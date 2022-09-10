@@ -1,0 +1,40 @@
+body{
+    background-color: dodgerblue;
+}
+
+h1{
+    color: black;
+    text-align: center;
+}
+
+p{
+    font-family: Verdana;
+    font-size: 20px;
+    color: whitesmoke;
+}
+table {
+width: 50%;
+border-spacing: 5px;
+
+
+}
+table, th, td {
+
+    border: 2px solid white;
+    border-radius: 8px;
+
+}
+th {
+background-color: rgb(205, 143, 44);
+text-align: left;
+padding: 6px;
+
+
+}
+td {
+
+    background-color: rgba(145, 159, 214, 0.912);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 5px;
+}
