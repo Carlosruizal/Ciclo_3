@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/estilos.css">
+    <title>Document</title>
+
+    <Style>
+        h2 {
+            color: blue;
+        }
+
+        div{
+            background-color: blue;
+            width: 20px;
+            height: 20px;
+            border-radius: 10px;
+            padding: auto;
+            margin:auto;
+            color: white;
+        }
+    </Style>
+
+</head>
+
+<body>
+
+   <script>
+function mostrarRango(a,b){
+
+    for(i=a;i<b;i++){
+
+        document.write("<div>"+i+"</div>")
+
+    }
+
+}
+
+var num1=prompt("punto inicial: ")
+var num2=prompt("punto final: ")
+mostrarRango(num1,num2)
+
+
+   </script> 
+
+<!--
+    <script>
+        var cont, n;
+
+        n = prompt("ingrese un numer")
+        document.write("hola" + n + "veces<br>")
+        for (cont = 0; cont < n; cont++) {
+
+            document.write("<h2>" + cont + "=>" + "hola</h2><br>")
+
+
+        }
+
+
+    </script>
+
+    <Script>
+
+        var nombre = ["carlos", "andres", "karina", "pepe", "fuancho"]
+        var lista = [
+            {
+                "nombre": "carlitos",
+                "apellido": "ruiz",
+                "telefono": "3106301160"
+            },
+            {
+                "nombre": "andres",
+                "apellido": "alzate",
+                "telefono": "3008440744"
+            },
+            {
+                "nombre": "karina",
+                "apellido": "pinzo",
+                "telefono": "3126811350"
+            },
+            {
+                "nombre": "esteban",
+                "apellido": "ruiz",
+                "telefono": "6053823524"
+            },
+
+        ]
+
+        document.write("<table>")
+        document.write("<tr>")
+        document.write("<th> N. </th>")
+        document.write("<th> Nombre </th>")
+        document.write("<th> Apellido </th>")
+        document.write("<th> Telefono </th>")
+        document.write("</tr>")
+
+        for (var i = 0; i < lista.length; i++) {
+            document.write("<tr>")
+            document.write("<td>" + (i + 1) + "</td>")
+            document.write("<td>" + lista[i]["nombre"] + " </td>")
+            document.write("<td>" + lista[i]["apellido"] + " </td>")
+            document.write("<td>" + lista[i]["telefono"] + " </td>")
+            document.write("</tr>")
+
+        }
+
+
+
+        document.write("<table>")
+
+    </Script>
+
+    <script>
+        var i = 0;
+        while (i < 5) {
+            document.write("<h3>" + i + "</h3>")
+            i++;
+        }
+
+
+
+
+    </script>
+
+
+    <script>
+
+        var i = 0;
+
+        do {
+            i++;
+            document.write("<div>" + i + "</div>")
+
+        }
+        while (i < 10);
+
+    </script>
+-->
+    <!--
+    <script>
+    
+
+    
+    
+
+       document.write("Hola mundo Ejemplo JS nuevo")
+
+        var num1 = 5
+        var num2 = 8
+
+        alert(num1 + num2)
+
+        var nombre;
+        nombre = "Calor Ruiz";
+        document.write(nombre)
+        var horas = 1000;
+        var horas_Trab = 6;
+        a = prompt("Ingrese un valor")
+        alert(a)
+
+        var nombre2;
+        var pass;
+        user = prompt("Ingrese el usuario")
+        pass = prompt("Ingrese contraseña")
+
+        if (user == "carlos" && pass == "abc123") {
+            alert("acceso concedido");
+
+        } else {
+            alert("acesco denegado")
+        }
+
+
+
+        document.write(num1 + num2)
+
+
+    </script>
+    -->
+
+
+
+</body>
+
+</html>
